@@ -23,7 +23,7 @@ Usage
 ```
 java -cp .:../lib/./* Server -s server_1 -r 1
 ```
-An election algorithm will automatically be called every time a new Server is started and joins the group.
+  An election algorithm will automatically be called every time a new Server is started and joins the group.
 
 2. Run a Slave passing a flag "-s" followed by its value containing the "slave name" followed by an underline "_" and a number id "x" of your choice, like the command below:
 ```
