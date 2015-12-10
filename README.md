@@ -20,9 +20,9 @@ Usage
 -----
 0. Run the Spread daemon.
 1. This step forward, will be assumed that you will be running the codes shown here from inside the source folder (src). Run a Server passing a flag "-s" followed by its value containing the "server name" followed by an underline "_" and a number id "x" of your choice, and a flag "-r" followed by its value containing the priority of the Server, like the command below:
-  ```
-  java -cp .:../lib/./* Server -s server_1 -r 1
-  ```
+```
+java -cp .:../lib/./* Server -s server_1 -r 1
+```
 An election algorithm will automatically be called every time a new Server is started and joins the group.
 2. Run a Slave passing a flag "-s" followed by its value containing the "slave name" followed by an underline "_" and a number id "x" of your choice, like the command below:
   ```
