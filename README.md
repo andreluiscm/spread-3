@@ -24,14 +24,16 @@ Usage
 java -cp .:../lib/./* Server -s server_1 -r 1
 ```
 An election algorithm will automatically be called every time a new Server is started and joins the group.
+
 2. Run a Slave passing a flag "-s" followed by its value containing the "slave name" followed by an underline "_" and a number id "x" of your choice, like the command below:
-  ```
-  java -cp .:../lib/./* Slave -s slave_1
-  ```
+```
+java -cp .:../lib/./* Slave -s slave_1
+```
+
 3. Run a Client passing a flag "-c" followed by its value containing the "client name" followed by an underline "_" and a number id "x" of your choice, like the command below:
-  ```
-  java -cp .:../lib/./* Client -c client_1
-  ```
+```
+java -cp .:../lib/./* Client -c client_1
+```
 4. Follow the menu shown in the Client interface.
 
 Notes
